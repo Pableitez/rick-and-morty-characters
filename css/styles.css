@@ -72,10 +72,40 @@ table {
   background-color: #03b1c8;
 }
 
-ul {  
-  padding-top: 100px;
-  list-style: none;
+ul {
+  padding-top: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
+
+.character-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  max-width: 300px;
+  text-align: center;
+  background-color: #f5f5f5;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+.character-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.character-card h3 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+}
+
+.character-card p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
 
 
